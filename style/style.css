@@ -1,0 +1,82 @@
+body{
+  max-width: 100%;
+} 
+.don-t{
+  background-color: rgb(23, 61, 23);
+  padding: 8px;
+  width: 100%;
+  position: absolute;
+  top: 160px;
+}
+.don-t ul{
+  max-width: 100%;
+  white-space: nowrap;
+  margin: 0 auto;
+}
+.don-t li{
+  /* width: 110px; */
+  padding-right:10px ;
+  display: inline-block;
+}
+.don-t ul li a{
+  text-decoration: none;
+  font-size: 15px;
+  color:whitesmoke;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: green;
+  min-width: 260px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content > a {
+  text-decoration: none;
+}
+
+.dropdown-content > a > label{
+  font-size: 16px;
+  color: white;
+  padding-top: 13px;
+  padding-bottom: 1px;
+  text-decoration: none;
+  position: relative;
+  left: 12px;
+  padding: left 10px;
+  display: block;
+}
+.dropdown-content label:hover {color: orange;}
+
+.don-t li:hover .dropdown-content {display: block;}
+
+.don-t li:hover .don-t a{background-color: #3e8e41;}
+.child1{
+  color:red;
+  position: absolute;
+  color:black;
+  font-size: 30px;
+  text-align: center;
+  left:405px;
+  top: 650px;
+}
+.child2{
+  position: absolute;
+  top: 699px;
+}
+.child2 em{
+  color: black;
+  font-size: 25px;
+  position: relative;
+  left:240px;
+
+}
+.child2 p{
+  color: black;
+  font-size: 25px;
+  position: relative;
+  left:240px;
+  display: inline;
+  color: rgb(23, 146, 23);
+}
